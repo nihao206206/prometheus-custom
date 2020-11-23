@@ -1,0 +1,14 @@
+<blog4go minlevel="debug">
+    <filter levels="info">
+        <rotatefile path="./logs/info.log" type="time"></rotatefile>
+    </filter>
+    <filter levels="debug" colored="true">
+        <rotatefile path="./logs/debug.log" type="time"></rotatefile>
+    </filter>
+    <filter levels="trace" colored="true">
+            <rotatefile path="./logs/trace.log" type="time"></rotatefile>
+                </filter>
+    <filter levels="error">
+         <rotatefile path="./logs/error.log" type="time"></rotatefile>
+    </filter>
+</blog4go>
